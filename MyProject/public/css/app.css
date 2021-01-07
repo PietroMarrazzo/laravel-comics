@@ -6,7 +6,7 @@
 
 body {
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .d-flex {
@@ -43,5 +43,32 @@ body {
 
 .wrap {
   flex-wrap: wrap;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header .blue-header {
+  background-color: dodgerblue;
+  height: 30px;
+}
+
+header ul {
+  margin: 20px 0px;
+  text-transform: uppercase;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+header ul li {
+  margin-right: 30px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: dimgray;
 }
 
