@@ -50,11 +50,18 @@ body {
   margin: 0 auto;
 }
 
+.p-absolute {
+  position: absolute;
+}
+
+.p-relative {
+  position: relative;
+}
+
 header .blue-header {
   background-color: dodgerblue;
   height: 30px;
 }
-
 header ul {
   margin: 20px 0px;
   text-transform: uppercase;
@@ -62,17 +69,23 @@ header ul {
   font-size: 1.2rem;
   font-weight: 600;
 }
-
 header ul li {
   margin-right: 30px;
 }
-
 header ul li a {
   text-decoration: none;
   color: dimgray;
 }
 
-.hero {
+.bg-hero {
+  height: 390px;
+  background-image: url("../images/bg-hero-home.jpg");
+  background-size: cover;
+}
+.bg-hero .hero {
   height: 390px;
 }
-
+.bg-hero .hero img {
+  bottom: 0;
+  left: 5rem;
+}
