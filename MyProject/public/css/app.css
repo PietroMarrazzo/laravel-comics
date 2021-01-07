@@ -459,3 +459,7 @@ header ul li a {
   color: #e2e2e2;
   text-decoration: none;
 }
+
+.details {
+  line-height: 30px;
+}

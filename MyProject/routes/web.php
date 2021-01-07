@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 
 // homepage route
 Route::get('/', 'HomeController@index')->name('home');
+
+Route::get('/comic/{id}', 'ComicController@show')->name('comic-details');
