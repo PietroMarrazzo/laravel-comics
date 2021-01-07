@@ -5,7 +5,7 @@
         <div class="container">
             <ul class="navbar-header ul-nostyle d-flex flex-wrap">
                 <li>
-                    <a href="/">
+                    <a href="{{ route('home') }}">
                         <img src="{{ asset('images/logo.png') }}" alt="">
                     </a>        
                 </li>
