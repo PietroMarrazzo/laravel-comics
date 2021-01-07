@@ -61,5 +61,10 @@
                 </li>
             </ul>
         </div>
+        <div class="hero p-relative">
+            <div class="container">
+                <img class="p-absolute" src="{{ asset('images/cover-home.jpg') }}" alt="">
+            </div>
 
+        </div>
 </header>
